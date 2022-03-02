@@ -16,7 +16,7 @@ public class randomspawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(2))
         {
             int randEnemy = Random.Range(0,  enemyPrefabs.Length);
             int randSpawPoint = Random.Range(0,  spawnPoints.Length);
