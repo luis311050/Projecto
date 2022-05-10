@@ -157,5 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 636b4faad3e55da4abb9416f4bc26abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  John: {fileID: 8728546426647368399, guid: c9d17a37f81557c4bba7f4352aa99038, type: 3}
+  John: {fileID: 0}
   BulletPrefab: {fileID: 9141338218809068285, guid: 25e8272bdec09f94e877850708a6b54f, type: 3}
+  rbEnemigo: {fileID: 0}
+  movespeed: 0
