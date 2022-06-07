@@ -79,6 +79,8 @@ public class JohnMovement : MonoBehaviour
     public void Hit()
     {
         Health -= 1;
+        Life.LifeValue -=1;
+
         if (Health == 0){
             Time.timeScale = 0;
             Destroy(gameObject); 

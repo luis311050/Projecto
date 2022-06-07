@@ -7,9 +7,9 @@ public class GruntScript : MonoBehaviour
     public Transform John;
     public GameObject BulletPrefab;
     public Rigidbody2D rbEnemigo;
-    public float movespeed = 0;
+    public float movespeed = 0.1F;
 
-    private int Health = 3;
+    private int Health = 1;
     private float LastShoot;
     private Vector2 movement;
 
